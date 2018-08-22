@@ -1,0 +1,83 @@
+{
+	"field1": {
+		"key": "k1",
+		"value": 7758
+	},
+	"field2": [
+		{
+			"key": "k1",
+			"value": 123
+		},
+		{
+			"key": "k1",
+			"value": 456
+		},
+		{
+			"key": "k1",
+			"value": 789
+		}
+	],
+	"field3": [
+		{
+			"key": "k1",
+			"value": 4112
+		},
+		{
+			"key": "k1",
+			"value": 415
+		},
+		{
+			"key": "k1",
+			"value": 999999999
+		}
+	],
+	"field4": {
+		"type": "12345"
+	},
+	"field5": [
+		{
+			"type": "t1"
+		},
+		{
+			"type": "t2"
+		}
+	],
+	"field6": [
+		{
+			"type": "t3"
+		},
+		{
+			"type": "t4"
+		}
+	],
+	"field7": {
+		"f1": "string",
+		"f2": 123456,
+		"f3": true
+	},
+	"field8": {
+		"key1": true,
+		"key2": false,
+		"key3": false,
+		"key4": true
+	},
+	"field9": [
+		"string1",
+		"string2",
+		"string3"
+	],
+	"field10": [
+		"string",
+		false,
+		1234567890123,
+		{
+			"f1": "10",
+			"f2": true
+		}
+	],
+	"field11": {
+		"f1": true,
+		"f2": "Hello",
+		"f3": 9876543210
+	}
+}
