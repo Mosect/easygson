@@ -24,6 +24,12 @@ gson的二次封装，主要是对泛型的嵌套支持
 		GenericClass.create(List.class, HashMap.class, String.class, Date.class);
 	泛型的嵌套+数组：List<HashMap<String, Date>>[]
 		GenericClass.create(List[].class, List.class, HashMap.class, String.class, Date.class);
+### 可以通过getLayer方法获取指定类的泛型：
+	class A<T> extends ArrayList<T>
+	class B extends A<String>
+	GenericClass bcls = GenericClass.create(B.class);
+	GenericClass acls = bcls.getLayer(A.class);
+	System.out.println(acls); // 打印A<String>
 
 ## EasyGson
 ### json与object之间的转换工具
